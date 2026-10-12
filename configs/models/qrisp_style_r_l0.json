@@ -1,0 +1,22 @@
+{
+  "scale": 4,
+  "size": "t",
+  "qrisp_colour": "MipBiasJit",
+  "motion_jit": false,
+  "motion_lerp": 0.0,
+  "depth_jit": false,
+  "dataset": "qrisp",
+  "model_kwargs": {
+    "f": 64,
+    "m": 5,
+    "hyper_hidden": 2048,
+    "hyper_layers": 7,
+    "hyper_param": "mup",
+    "motion_dilation": true,
+    "dilation_block": 8,
+    "dejitter": false,
+    "scale": 4,
+    "arch": "qrisp"
+  },
+  "arch": "qrisp"
+}

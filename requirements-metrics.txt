@@ -1,0 +1,7 @@
+-r requirements.txt
+torchvision==0.25.0
+torchmetrics==1.8.2
+cvvdp==0.5.7
+flip-evaluator==1.7
+matplotlib==3.10.8
+scikit-image>=0.25,<0.27

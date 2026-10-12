@@ -1,0 +1,32 @@
+{
+  "archive_regular_files": 75402,
+  "extracted_text_files": 22137,
+  "code_files_by_extension": {
+    ".py": 6959,
+    ".sh": 3193,
+    ".glsl": 1
+  },
+  "unique_code_contents": 1569,
+  "unique_python_modules_parsed": 1140,
+  "nonselected_source_parse_issues": 12,
+  "released_scope": [
+    "paper models and dependencies",
+    "sequence training and temporal losses",
+    "dataset adapters and converters",
+    "full and static evaluation",
+    "perceptual metrics",
+    "classical baselines",
+    "optional deployment kernels"
+  ],
+  "excluded_scope": [
+    "data and pretrained weights",
+    "duplicate archived snapshots",
+    "runtime environments and caches",
+    "nonportable launchers and execution records",
+    "internal research notes",
+    "manuscript sources and submission materials",
+    "generated profiles and plots",
+    "unrelated early single-image research entry points",
+    "obsolete GLSL rank-rectification prototype"
+  ]
+}

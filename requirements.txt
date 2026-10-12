@@ -1,0 +1,7 @@
+torch==2.10.0
+numpy==2.4.2
+opencv-python-headless==4.13.0.92
+lmdb==2.3.0
+Pillow==12.1.1
+safetensors==0.7.0
+scipy==1.17.1

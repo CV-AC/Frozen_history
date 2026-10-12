@@ -1,0 +1,9 @@
+cff-version: 1.2.0
+message: "Please cite Frozen History: When Temporal Losses Stop Accumulation in Learned Real-Time Supersampling when using this software."
+type: software
+title: "Frozen History: When Temporal Losses Stop Accumulation in Learned Real-Time Supersampling"
+version: 1.0.0
+license: MIT
+repository-code: "https://github.com/CV-AC/Frozen_history"
+authors:
+  - name: "Frozen History contributors"

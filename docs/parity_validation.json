@@ -1,0 +1,120 @@
+{
+  "model_checks": [
+    {
+      "registration": "r",
+      "accumulate": "normalized",
+      "scale": 2,
+      "frames": 4,
+      "bitwise_equal": true
+    },
+    {
+      "registration": "r",
+      "accumulate": "normalized",
+      "scale": 3,
+      "frames": 4,
+      "bitwise_equal": true
+    },
+    {
+      "registration": "r",
+      "accumulate": "normalized",
+      "scale": 4,
+      "frames": 4,
+      "bitwise_equal": true
+    },
+    {
+      "registration": "r",
+      "accumulate": "direct",
+      "scale": 2,
+      "frames": 4,
+      "bitwise_equal": true
+    },
+    {
+      "registration": "r",
+      "accumulate": "direct",
+      "scale": 3,
+      "frames": 4,
+      "bitwise_equal": true
+    },
+    {
+      "registration": "r",
+      "accumulate": "direct",
+      "scale": 4,
+      "frames": 4,
+      "bitwise_equal": true
+    },
+    {
+      "registration": "j",
+      "accumulate": "normalized",
+      "scale": 2,
+      "frames": 4,
+      "bitwise_equal": true
+    },
+    {
+      "registration": "j",
+      "accumulate": "normalized",
+      "scale": 3,
+      "frames": 4,
+      "bitwise_equal": true
+    },
+    {
+      "registration": "j",
+      "accumulate": "normalized",
+      "scale": 4,
+      "frames": 4,
+      "bitwise_equal": true
+    },
+    {
+      "registration": "j",
+      "accumulate": "direct",
+      "scale": 2,
+      "frames": 4,
+      "bitwise_equal": true
+    },
+    {
+      "registration": "j",
+      "accumulate": "direct",
+      "scale": 3,
+      "frames": 4,
+      "bitwise_equal": true
+    },
+    {
+      "registration": "j",
+      "accumulate": "direct",
+      "scale": 4,
+      "frames": 4,
+      "bitwise_equal": true
+    }
+  ],
+  "loss_checks": [
+    {
+      "warp": "motion",
+      "norm": "l1",
+      "value_and_gradient_bitwise_equal": true
+    },
+    {
+      "warp": "motion",
+      "norm": "l2",
+      "value_and_gradient_bitwise_equal": true
+    },
+    {
+      "warp": "none",
+      "norm": "l1",
+      "value_and_gradient_bitwise_equal": true
+    },
+    {
+      "warp": "none",
+      "norm": "l2",
+      "value_and_gradient_bitwise_equal": true
+    }
+  ],
+  "qrisp_style_check": {
+    "frames": 4,
+    "bitwise_equal": true,
+    "compact_test_configuration": {
+      "f": 8,
+      "m": 3,
+      "hyper_hidden": 16,
+      "hyper_layers": 2
+    }
+  }
+}

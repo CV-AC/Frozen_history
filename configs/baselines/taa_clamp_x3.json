@@ -1,0 +1,121 @@
+{
+  "scale": 3,
+  "warmup": 8,
+  "train_runs": [
+    "CBApocalypse/0000",
+    "CBApocalypse/0014",
+    "CBApocalypse/0029",
+    "FloodedGrounds/0000",
+    "FloodedGrounds/0010",
+    "FloodedGrounds/0020",
+    "FloodedGroundsBridges/0000",
+    "FloodedGroundsBridges/0010",
+    "FloodedGroundsBridges/0019",
+    "ScifiBase/0000",
+    "ScifiBase/0020",
+    "ScifiBase/0040",
+    "ScifiBaseNightStartStop/0000",
+    "ScifiBaseNightStartStop/0010",
+    "ScifiBaseNightStartStop/0019",
+    "ScifiBaseStartStop/0000",
+    "ScifiBaseStartStop/0010",
+    "ScifiBaseStartStop/0020",
+    "ScifiFacility/0000",
+    "ScifiFacility/0010",
+    "ScifiFacility/0020",
+    "SunTemple/0000",
+    "SunTemple/0018",
+    "SunTemple/0035",
+    "SunTempleBush/0000",
+    "SunTempleBush/0005",
+    "SunTempleBush/0010",
+    "SunTempleLamps/0000",
+    "SunTempleLamps/0010",
+    "SunTempleLamps/0020"
+  ],
+  "frames_per_run": [
+    30,
+    30,
+    30,
+    30,
+    30,
+    30,
+    30,
+    30,
+    30,
+    30,
+    30,
+    30,
+    30,
+    30,
+    30,
+    30,
+    30,
+    30,
+    30,
+    30,
+    30,
+    30,
+    30,
+    30,
+    30,
+    30,
+    30,
+    30,
+    30,
+    30
+  ],
+  "grid": {
+    "alpha_min": [
+      0.0625,
+      0.1,
+      0.125
+    ],
+    "gamma": [
+      1.0
+    ],
+    "clip_mode": [
+      "clamp"
+    ],
+    "rectification": "min/max 3x3 box",
+    "luma_weight": [
+      false,
+      true
+    ],
+    "blend": [
+      "decay",
+      "floor"
+    ],
+    "rho": [
+      1.0,
+      1.5
+    ],
+    "dilate": [
+      true,
+      false
+    ],
+    "velocity": [
+      false,
+      true
+    ]
+  },
+  "n_configs": 96,
+  "chosen": "decay_r1.5_nodil_vel_a0.125_g1_noluma",
+  "chosen_config": {
+    "alpha_min": 0.125,
+    "gamma": 1.0,
+    "luma_weight": false,
+    "blend": "decay",
+    "rho": 1.5,
+    "dilate": false,
+    "velocity": true,
+    "depth_rel": 0.1,
+    "clip_mode": "clamp",
+    "taps": 5
+  },
+  "chosen_psnr_y": 27.66160517689903,
+  "taau_md5": {
+    "diffsr/taau.py": "ad9394c89b90adb0c65ae840d869c453",
+    "diffsr/samples.py": "c4325767f5be4b187b8069accb4f3808"
+  }
+}
